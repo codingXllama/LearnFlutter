@@ -7,14 +7,32 @@ void main() => runApp(MaterialApp(
     //Widgets start with CapLetter
     //Make sure to add ',' after each property 
     appBar: AppBar(
-      title:Text("Hello"),
+      title:Text(
+        "Home Page",
+        style: TextStyle(
+          // color: Colors.pink[200],
+          fontSize: 35,
+        ),
+        ),
       centerTitle: true,
+      backgroundColor: Colors.red[500],
+      
     ),
     body: Center(
-      child: Text("This is the child text within the body"),
+      child: Text(
+        "This is the child text within the body",
+       style: TextStyle(
+         fontSize: 20,
+         letterSpacing: 1.5,
+         fontWeight: FontWeight.bold,
+         backgroundColor: Colors.blue,
+         color:Colors.black54,
+       ),
+        ),
     ),
     floatingActionButton: FloatingActionButton(
-      child:Text('click'),
+      child:Text('click'), onPressed: () {},
+      backgroundColor: Colors.greenAccent[200],
     ),
   ),
 ));
