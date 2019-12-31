@@ -15,7 +15,7 @@ void main() => runApp(MaterialApp(
         ),
         ),
       centerTitle: true,
-      backgroundColor: Colors.red[500],
+      backgroundColor: Colors.red[200],
       
     ),
     body: Center(
@@ -24,8 +24,9 @@ void main() => runApp(MaterialApp(
        style: TextStyle(
          fontSize: 20,
          letterSpacing: 1.5,
-         fontWeight: FontWeight.bold,
-         backgroundColor: Colors.blue,
+        //  fontWeight: FontWeight.bold,
+         backgroundColor: Colors.blue[300],
+         fontFamily: '',
          color:Colors.black54,
        ),
         ),
